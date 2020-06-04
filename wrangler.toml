@@ -1,0 +1,6 @@
+name = "helloworld-msteams-bot"
+type = "webpack"
+account_id = ""
+workers_dev = true
+route = ""
+zone_id = ""
