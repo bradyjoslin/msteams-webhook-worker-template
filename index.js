@@ -39,7 +39,7 @@ async function handleRequest(request) {
     let name = json.from.name
 
     return new Response(
-      `{"type": "message","text": "Hey ${name}, this is a reply from a Cloudflare Worker! 👷‍♂️"}`,
+      `{"type": "message","text": "Hey ${name}, this is a reply from a Cloudflare Worker!"}`,
       {
         headers: { 'content-type': 'application/json' },
       },
