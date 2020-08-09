@@ -1,5 +1,3 @@
-const crypto = require('crypto')
-
 addEventListener('fetch', event => {
   event.respondWith(handleRequest(event.request))
 })
