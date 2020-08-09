@@ -1,6 +1,6 @@
-name = "helloworld-msteams-bot"
-type = "webpack"
 account_id = ""
-workers_dev = true
+name = "helloworld-msteams-bot"
 route = ""
+type = "javascript"
+workers_dev = true
 zone_id = ""
